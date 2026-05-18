@@ -69,6 +69,9 @@ git repo
 ```
 
 ---
+## Demo
+
+![Demo](docs/demo.png)
 
 ## The 6 risk dimensions
 
