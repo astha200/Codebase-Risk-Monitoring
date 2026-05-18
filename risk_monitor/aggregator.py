@@ -104,8 +104,8 @@ Per-dimension findings:
         return result.output.summary
     except Exception as e:
         top = sorted(dimensions, key=lambda d: d.score, reverse=True)[:2]
-        fallback = "; ".join(f"{d.dimension.value}={d.score}" for d in top)
-        return f"[judge_unavailable: {type(e).__name__}] top dims: {fallback}"
+        fallback = ", ".join(f"{d.dimension.value} ({d.score}/10)" for d in top)
+        return f"Top risk areas: {fallback}. Full summary unavailable — retry or re-scan."
 
 
 async def assess_commit(commit: CommitInput) -> RiskReport:
