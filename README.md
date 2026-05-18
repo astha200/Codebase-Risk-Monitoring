@@ -24,7 +24,7 @@ Opens at http://localhost:8501 — ranked commits, per-dimension breakdown, dril
 ## Scan any repo yourself
 
 ```bash
-# 1. Get a free Groq key at https://console.groq.com/keys  (~30 seconds, no credit card)
+# 1. Get a free Groq key at https://console.groq.com/keys 
 # 2. Add it to .env
 echo "GROQ_API_KEY=gsk_..." >> .env
 
