@@ -15,6 +15,7 @@ dependencies = [
     "streamlit>=1.36",
     "pandas>=2.2",
     "altair>=5.3",
+    "numpy<2.0",
 ]
 
 [project.scripts]

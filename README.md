@@ -4,13 +4,17 @@ An agentic framework that scores and ranks git commits by risk. It combines chea
 
 ---
 
-## Quick start (no API key needed)
+## Quick start
 
 A pre-scanned demo database is included. Run the dashboard instantly:
 
 ```bash
 git clone <repo-url>
 cd codebase-risk-monitoring
+
+python -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
+
 pip install -e .
 risk-monitor dashboard
 ```
