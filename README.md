@@ -181,8 +181,7 @@ RISK_MONITOR_SENSITIVE_PATHS=auth,payments,migrations,secrets
 |---|---|---|
 | LLM agents | PydanticAI | Type-safe structured outputs, clean multi-agent, retry logic built-in |
 | LLM provider | Groq (default) | 30 req/min free, 14,400 req/day, fast LPU inference |
-| Model routing | OpenRouter-compatible | Swap models via config, no code change |
-| Models | llama-3.3-70b-versatile | Strong reasoning, reliable JSON, free on Groq |
+| Models | llama-4-scout-17b-16e-instruct |	Fast, reliable JSON output, free on Groq |
 | Git interface | GitPython | Full diff, blame, and history access |
 | Store | SQLite | Zero-config, single file, cache by (sha, prompt, model) |
 | Dashboard | Streamlit | Pure Python, runs in one command |
